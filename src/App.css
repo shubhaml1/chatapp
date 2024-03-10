@@ -6,7 +6,7 @@
 
 @media screen and (max-width: 550px) {
   .name {
-    font-size: 1.2em!important;
+    font-size: 1.2em !important;
   }
 }
 .App {
@@ -93,7 +93,7 @@
 }
 
 .name {
-  font-size: 2em;
+  font-size: 1.6em;
 }
 
 h2 {
@@ -137,4 +137,29 @@ h2 {
 
 .recipient {
   color: #019ad2;
+}
+
+@media screen and (max-width: 768px) {
+  .chat-window {
+    margin: 0 20px !important;
+  }
+  
+}
+@media screen and (max-width: 380px) {
+  .chat-window {
+    margin: 0 20px !important;
+    font-size: 1em ;
+  }
+  
+}
+@media screen and (max-width: 550px) {
+  .chat-window {
+    margin: 0 10px !important;
+    border: 10px solid #2eb9ce;
+  }
+  h2 {
+    font-size: 1.2em ;
+    text-align: center !important;
+  }
+  
 }
