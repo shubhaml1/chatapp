@@ -3,6 +3,12 @@
   /* Add other global styles 
 }
 */
+
+@media screen and (max-width: 550px) {
+  .name {
+    font-size: 1.2em!important;
+  }
+}
 .App {
   text-align: center;
   /* color: #306482; */
